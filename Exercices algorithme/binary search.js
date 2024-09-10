@@ -14,3 +14,7 @@ while (left <= right) {
         right=middel;
     }
 }
+
+if (left > right) {
+    console.log("Target not found in the array");
+}
